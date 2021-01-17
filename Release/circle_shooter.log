@@ -1,0 +1,30 @@
+﻿  stdafx.c
+  ammo_box.c
+  basic_enemy.c
+basic_enemy.c(47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+basic_enemy.c(48): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+basic_enemy.c(90): warning C4013: 'bullet_reset_shock_affect' undefined; assuming extern returning int
+  basic_gun.c
+  basic_setup.c
+basic_setup.c(73): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+basic_setup.c(119): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  enemy_wave_system.c
+enemy_wave_system.c(17): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+enemy_wave_system.c(25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  events_manager.c
+  health_packs.c
+  player.c
+  render_manager.c
+render_manager.c(463): warning C4013: 'concat' undefined; assuming extern returning int
+render_manager.c(464): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+render_manager.c(463): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+  exploding_enemy.c
+  shooting_enemy.c
+  simple_bullet.c
+  spawner_manager.c
+  useful.c
+  Generating code
+  All 82 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  circle_shooter.vcxproj -> C:\Users\Maor\Documents\Visual Studio 2015\Projects\circle_shooter\Release\circle_shooter.exe
+  circle_shooter.vcxproj -> C:\Users\Maor\Documents\Visual Studio 2015\Projects\circle_shooter\Release\circle_shooter.pdb (Full PDB)
